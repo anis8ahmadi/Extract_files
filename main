@@ -4,6 +4,6 @@
 #PBS -l walltime=00:05:00
 
 #parse config.json for input parameters
-out1=$(jq -r .output config.json)
+out=$(jq -r .output config.json)
 
-./copie.m $out1
+./copie.m $out
