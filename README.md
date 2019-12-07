@@ -1,2 +1,2 @@
-app-2files
-This application will 2 files from Freesurfer's parcellation.
+#Extract_files
+This application will copie files from Freesurfer's parcellation.
